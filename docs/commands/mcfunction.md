@@ -16,7 +16,13 @@ effect @s night_vision 100000 1 true
 
 Functions can be executed in-game by typing `/function name_of_function`. This will execute all the commands in the function file, all in a single tick. Nested functions will also run in the same tick as the parent function.
 
-Function files can be nested, for example: `BP/functions/teleport/home.mcfunction` will create a new function called `teleport/home`, which can be called in game like `/function teleport/home`.
+Function files can be nested, for example: `BP/functions/teleport/home.mcfunction` will create a new function called `teleport/home`, which can be called in game like `/function teleport/home`. Here is what this example might look like.
+
+<FolderView :paths="[
+		    
+'BP/functions/teleport/home.mcfunction',
+'BP/function/kick_all.mcfunction'
+]"></FolderView>
 
 Functions can be reloaded from the file without leaving the game with the `/reload` command.
 

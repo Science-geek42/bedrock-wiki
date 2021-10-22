@@ -1,5 +1,5 @@
 ---
-title: Tellraw
+title: Understanding Tellraw
 ---
 
 tellraw sends a JSON message to selected or all players being usefull for sending plain messages to players ingame

@@ -1,6 +1,7 @@
 ---
-title: Loading Commands
-
+title: Commands Upon Joining
+tags:
+ - guide
 mention:
  - MedicalJewel105
 ---
